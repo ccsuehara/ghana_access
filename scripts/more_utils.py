@@ -1,4 +1,8 @@
 import numpy as np
+import pandas as pd
+
+time_bins = list(range(0,1445,5))
+time_labels = list(range(1,len(time_bins)))
 
 def calculate_indicators(df, lst_time_events,pop_col):
     for x in lst_time_events:
